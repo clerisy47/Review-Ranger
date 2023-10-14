@@ -1,12 +1,19 @@
 import streamlit as st
 from PIL import Image
-import rasa.shared.utils.io
+from rasa.core.agent import Agent
 
-rasa_model_path = "models"
-rasa = rasa.shared.utils.io.read_model(rasa_model_path)
+agent = Agent.load(model_path='/models/model.tar.gz')
 
+# For Rasa 2 (I tried it with 2.8.8)
+# def generate_response(text):
+#     response = agent.parse_message_using_nlu_interpreter(
+#                 message_data='Hello there')
+#     return response
+
+# For Rasa 3
 def generate_response(text):
-    response = rasa.parse_text(text)
+    response = agent.parse_message(
+                message_data='Hello there')
     return response
 
 st.title("Automatic Review Bot")
