@@ -22,7 +22,7 @@ This command will install the necessary dependencies listed in the `requirements
 
 ### By terminal:
 
-2.
+2. Run the application by executing the following command in your terminal:
 ```bash
 rasa shell
 ```
