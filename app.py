@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from rasa.core.agent import Agent
 
-agent = Agent.load(model_path='/models/model.tar.gz')
+agent = Agent.load(model_path='models')
 
 # For Rasa 2 (I tried it with 2.8.8)
 # def generate_response(text):
@@ -11,14 +11,17 @@ agent = Agent.load(model_path='/models/model.tar.gz')
 #     return response
 
 # For Rasa 3
+
+
 def generate_response(text):
     response = agent.parse_message(
-                message_data='Hello there')
+        message_data='Hello there')
     return response
+
 
 st.title("Automatic Review Bot")
 
-image = Image.open("image.jpeg") 
+image = Image.open("image.jpeg")
 st.image(image, use_column_width=True)
 
 user_text = st.text_area("Enter your text:", "")
