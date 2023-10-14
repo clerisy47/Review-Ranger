@@ -18,15 +18,16 @@ This command will install the necessary dependencies listed in the `requirements
 
 ## Usage
 
-
 1. Clone the repository or download the `main.py` file.
 
 ### By terminal:
 
-2. ```bash
+2.
+```bash
 rasa shell
 ```
-3. Enter the input in the shell and press enter
+
+3. Enter the input in the shell and press enter to generate a review based on the provided text.
 
 ### By streamlit:
 2. Run the application by executing the following command in your terminal:
