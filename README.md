@@ -45,6 +45,12 @@ streamlit run main.py
 5. Click the "Generate Review" button to generate a review based on the provided text and ratings.
 
 
+## Collaborators
+
+1. Utsav Acharya
+2. Ashish Pandey
+
+
 ## Contributions
 
 Contributions are welcome! Feel free to open an issue or create a pull request.
@@ -52,8 +58,3 @@ Contributions are welcome! Feel free to open an issue or create a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contributors
-
-1. Utsav Acharya
-2. Ashish Pandey
