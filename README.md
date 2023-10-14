@@ -50,3 +50,8 @@ Contributions are welcome! Feel free to open an issue or create a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contributors
+
+1. Utsav Acharya
+2. Ashish Pandey
