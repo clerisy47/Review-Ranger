@@ -1,0 +1,1662 @@
+version: "3.1"
+
+stories:
+  - story: User provides feedback on slow delivery
+    steps:
+      - intent: slow_delivery
+      - action: utter_slow_delivery
+
+  - story: User provides feedback on small room
+    steps:
+      - intent: small_room
+      - action: utter_small_room
+
+  # - story: User provides feedback on expensive shipping
+  #   steps:
+  #     - intent: expensive_shipping
+  #     - action: utter_expensive_shipping
+
+  # - story: User provides feedback on excellent customer service
+  #   steps:
+  #     - intent: excellent_customer_service
+  #     - action: utter_excellent_customer_service
+
+  # - story: User provides feedback on user-friendly software
+  #   steps:
+  #     - intent: user_friendly_software
+  #     - action: utter_user_friendly_software
+
+  # - story: User provides feedback on small cups
+  #   steps:
+  #     - intent: small_cups
+  #     - action: utter_small_cups
+
+  # - story: User provides feedback on eco-friendly packaging
+  #   steps:
+  #     - intent: eco_friendly_packaging
+  #     - action: utter_eco_friendly_packaging
+
+  # - story: User provides feedback on parking challenge
+  #   steps:
+  #     - intent: parking_challenge
+  #     - action: utter_parking_challenge
+
+  # - story: User provides feedback on outstanding product quality
+  #   steps:
+  #     - intent: outstanding_product_quality
+  #     - action: utter_outstanding_product_quality
+
+  # - story: User provides feedback on slow website speed
+  #   steps:
+  #     - intent: slow_website_speed
+  #     - action: utter_slow_website_speed
+
+  # - story: User provides feedback on helpful support team
+  #   steps:
+  #     - intent: helpful_support_team
+  #     - action: utter_helpful_support_team
+
+  # - story: User provides feedback on stylish product design
+  #   steps:
+  #     - intent: stylish_product_design
+  #     - action: utter_stylish_product_design
+
+  # - story: User provides feedback on cozy restaurant atmosphere
+  #   steps:
+  #     - intent: cozy_restaurant_atmosphere
+  #     - action: utter_cozy_restaurant_atmosphere
+
+  # - story: User provides feedback on mobile app issues
+  #   steps:
+  #     - intent: mobile_app_issues
+  #     - action: utter_mobile_app_issues
+
+  # - story: User provides feedback on product condition and instructions
+  #   steps:
+  #     - intent: product_condition_and_instructions
+  #     - action: utter_product_condition_and_instructions
+
+  # - story: User provides feedback on live chat support
+  #   steps:
+  #     - intent: live_chat_support
+  #     - action: utter_live_chat_support
+
+  # - story: User provides feedback on gym equipment quality
+  #   steps:
+  #     - intent: gym_equipment_quality
+  #     - action: utter_gym_equipment_quality
+
+  # - story: User provides feedback on quick response resolution
+  #   steps:
+  #     - intent: quick_response_resolution
+  #     - action: utter_quick_response_resolution
+
+  # - story: User provides feedback on small portion sizes
+  #   steps:
+  #     - intent: small_portion_sizes
+  #     - action: utter_small_portion_sizes
+
+  # - story: User provides feedback on robust software features
+  #   steps:
+  #     - intent: robust_software_features
+  #     - action: utter_robust_software_features
+
+  # - story: User provides feedback on unreliable Wi-Fi connection
+  #   steps:
+  #     - intent: unreliable_wi-fi_connection
+  #     - action: utter_unreliable_wi-fi_connection
+
+  # - story: User provides feedback on on-time product delivery
+  #   steps:
+  #     - intent: on-time_product_delivery
+  #     - action: utter_on_time_product_delivery
+
+  # - story: User provides feedback on limited food options
+  #   steps:
+  #     - intent: limited_food_options
+  #     - action: utter_limited_food_options
+
+  # - story: User provides feedback on trendy clothing
+  #   steps:
+  #     - intent: trendy_clothing
+  #     - action: utter_trendy_clothing
+
+  # - story: User provides feedback on engaging social media
+  #   steps:
+  #     - intent: engaging_social_media
+  #     - action: utter_engaging_social_media
+
+  # - story: User provides feedback on affordable product
+  #   steps:
+  #     - intent: affordable_product
+  #     - action: utter_affordable_product
+
+  # - story: User provides feedback on diverse menu
+  #   steps:
+  #     - intent: diverse_menu
+  #     - action: utter_diverse_menu
+
+  # - story: User provides feedback on easy-to-navigate site
+  #   steps:
+  #     - intent: easy_to_navigate_site
+  #     - action: utter_easy_to_navigate_site
+
+  # - story: User provides feedback on crowded coffee shop
+  #   steps:
+  #     - intent: crowded_coffee_shop
+  #     - action: utter_crowded_coffee_shop
+
+  # - story: User provides feedback on wide product variety
+  #   steps:
+  #     - intent: wide_product_variety
+  #     - action: utter_wide_product_variety
+
+  # - story: User provides feedback on durable product
+  #   steps:
+  #     - intent: durable_product
+  #     - action: utter_durable_product
+
+  # - story: User provides feedback on responsive customer service
+  #   steps:
+  #     - intent: responsive_customer_service
+  #     - action: utter_responsive_customer_service
+
+  # - story: User provides feedback on informative online courses
+  #   steps:
+  #     - intent: informative_online_courses
+  #     - action: utter_informative_online_courses
+
+  # - story: User provides feedback on feature-rich mobile app
+  #   steps:
+  #     - intent: feature-rich_mobile_app
+  #     - action: utter_feature-rich_mobile_app
+
+  # - story: User provides feedback on competitive pricing
+  #   steps:
+  #     - intent: competitive_pricing
+  #     - action: utter_competitive_pricing
+
+  # - story: User provides feedback on entertaining event
+  #   steps:
+  #     - intent: entertaining_event
+  #     - action: utter_entertaining_event
+
+  # - story: User provides feedback on modern website design
+  #   steps:
+  #     - intent: modern_website_design
+  #     - action: utter_modern_website_design
+
+  # - story: User provides feedback on friendly customer support
+  #   steps:
+  #     - intent: friendly_customer_support
+  #     - action: utter_friendly_customer_support
+
+  # - story: User provides feedback on excellent hotel room
+  #   steps:
+  #     - intent: excellent_hotel_room
+  #     - action: utter_excellent_hotel_room
+
+  # - story: User provides feedback on fast shipping experience
+  #   steps:
+  #     - intent: fast_shipping_experience
+  #     - action: utter_fast_shipping_experience
+
+  # - story: User provides feedback on well-designed e-commerce site
+  #   steps:
+  #     - intent: well-designed_e-commerce_site
+  #     - action: utter_well-designed_e-commerce_site
+
+  # - story: User provides feedback on impressive product performance
+  #   steps:
+  #     - intent: impressive_product_performance
+  #     - action: utter_impressive_product_performance
+
+  # - story: User provides feedback on well-organized event
+  #   steps:
+  #     - intent: well-organized_event
+  #     - action: utter_well-organized_event
+
+  # - story: User provides feedback on exceptional product quality
+  #   steps:
+  #     - intent: exceptional_product_quality
+  #     - action: utter_exceptional_product_quality
+
+  # - story: User provides feedback on friendly store staff
+  #   steps:
+  #     - intent: friendly_store_staff
+  #     - action: utter_friendly_store_staff
+
+  # - story: User provides feedback on powerful software
+  #   steps:
+  #     - intent: powerful_software
+  #     - action: utter_powerful_software
+
+  # - story: User provides feedback on prompt email response
+  #   steps:
+  #     - intent: prompt_email_response
+  #     - action: utter_prompt_email_response
+
+  # - story: User provides feedback on cozy restaurant atmosphere and limited vegan menu
+  #   steps:
+  #     - intent: cozy_restaurant_atmosphere_limited_vegan_menu
+  #     - action: utter_cozy_restaurant_atmosphere_limited_vegan_menu
+
+  # - story: User provides feedback on cozy atmosphere and menu expansion
+  #   steps:
+  #     - intent: cozy_atmosphere_menu_expansion
+  #     - action: utter_cozy_atmosphere_menu_expansion
+
+  # - story: User provides feedback on feature-packed mobile app and battery drain
+  #   steps:
+  #     - intent: feature-packed_mobile_app
+  #     - action: utter_feature-packed_mobile_app
+
+  # - story: User provides feedback on competitive pricing and time-consuming checkout
+  #   steps:
+  #     - intent: competitive_pricing_time-consuming_checkout
+  #     - action: utter_competitive_pricing_time-consuming_checkout
+
+  # - story: User provides feedback on helpful live chat support
+  #   steps:
+  #     - intent: helpful_live_chat_support
+  #     - action: utter_helpful_live_chat_support
+
+  # - story: User provides feedback on modern and attractive website design and load time
+  #   steps:
+  #     - intent: modern_attractive_website_load_time
+  #     - action: utter_modern_attractive_website_load_time
+
+  # - story: User provides feedback on knowledgeable tech support
+  #   steps:
+  #     - intent: knowledgeable_tech_support
+  #     - action: utter_knowledgeable_tech_support
+
+  # - story: User provides feedback on easy-to-navigate website and detailed product descriptions
+  #   steps:
+  #     - intent: easy_to_navigate_website_detailed_product_descriptions
+  #     - action: utter_easy_to_navigate_website_detailed_product_descriptions
+
+  # - story: User provides feedback on modern website design and confusing checkout
+  #   steps:
+  #     - intent: modern_website_design_confusing_checkout
+  #     - action: utter_modern_website_design_confusing_checkout
+
+  # - story: User provides feedback on extensive product range and website navigation
+  #   steps:
+  #     - intent: extensive_product_range_website_navigation
+  #     - action: utter_extensive_product_range_website_navigation
+
+  # - story: User provides feedback on patient and helpful support team and accessible contact button
+  #   steps:
+  #     - intent: patient_helpful_support_team_accessible_contact_button
+  #     - action: utter_patient_helpful_support_team_accessible_contact_button
+
+  # - story: User provides feedback on convenient store location and parking availability
+  #   steps:
+  #     - intent: convenient_store_location_parking_availability
+  #     - action: utter_convenient_store_location_parking_availability
+
+  # - story: on-time_delivery_no_assembly_instructions
+  #   steps:
+  #     - intent: on-time_delivery_no_assembly_instructions
+  #     - action: utter_on-time_delivery_no_assembly_instructions
+
+  # - story: well-organized_event_limited_food_options
+  #   steps:
+  #     - intent: well-organized_event_limited_food_options
+  #     - action: utter_well-organized_event_limited_food_options
+
+  # - story: well-designed_website_intuitive_search
+  #   steps:
+  #     - intent: well-designed_website_intuitive_search
+  #     - action: utter_well-designed_website_intuitive_search
+
+  # - story: friendly_customer_support_response_time
+  #   steps:
+  #     - intent: friendly_customer_support_response_time
+  #     - action: utter_friendly_customer_support_response_time
+
+  # - story: reasonable_pricing_long_shipping_time
+  #   steps:
+  #     - intent: reasonable_pricing_long_shipping_time
+  #     - action: utter_reasonable_pricing_long_shipping_time
+
+  # - story: affordable_product_flimsy_packaging
+  #   steps:
+  #     - intent: affordable_product_flimsy_packaging
+  #     - action: utter_affordable_product_flimsy_packaging
+
+  # - story: diverse_menu_crowded_dining_experience
+  #   steps:
+  #     - intent: diverse_menu_crowded_dining_experience
+  #     - action: utter_diverse_menu_crowded_dining_experience
+
+  # - story: easy_to_navigate_ecommerce_site_mobile_app_improvements
+  #   steps:
+  #     - intent: easy_to_navigate_ecommerce_site_mobile_app_improvements
+  #     - action: utter_easy_to_navigate_ecommerce_site_mobile_app_improvements
+
+  # - story: great_tasting_coffee_small_cups
+  #   steps:
+  #     - intent: great_tasting_coffee_small_cups
+  #     - action: utter_great_tasting_coffee_small_cups
+
+  # - story: on-time_delivery_eco-friendly_packaging
+  #   steps:
+  #     - intent: on-time_delivery_eco-friendly_packaging
+  #     - action: utter_on-time_delivery_eco-friendly_packaging
+
+  # - story: easy_to_navigate_website_detailed_product_descriptions
+  #   steps:
+  #     - intent: easy_to_navigate_website_detailed_product_descriptions
+  #     - action: utter_easy_to_navigate_website_detailed_product_descriptions
+
+  # - story: excellent_customer_support_long_phone_wait_time
+  #   steps:
+  #     - intent: excellent_customer_support_long_phone_wait_time
+  #     - action: utter_excellent_customer_support_long_phone_wait_time
+
+  # - story: perfect_condition_product_missing_user_manual
+  #   steps:
+  #     - intent: perfect_condition_product_missing_user_manual
+  #     - action: utter_perfect_condition_product_missing_user_manual
+
+  # - story: enjoyable_event_confusing_registration
+  #   steps:
+  #     - intent: enjoyable_event_confusing_registration
+  #     - action: utter_enjoyable_event_confusing_registration
+
+  # - story: responsive_customer_service_finding_contact_info
+  #   steps:
+  #     - intent: responsive_customer_service_finding_contact_info
+  #     - action: utter_responsive_customer_service_finding_contact_info
+
+  # - story: high_quality_gym_equipment_improve_locker_room_cleanliness
+  #   steps:
+  #     - intent: high_quality_gym_equipment_improve_locker_room_cleanliness
+  #     - action: utter_high_quality_gym_equipment_improve_locker_room_cleanliness
+
+  # - story: quick_response_detailed_resolution
+  #   steps:
+  #     - intent: quick_response_detailed_resolution
+  #     - action: utter_quick_response_detailed_resolution
+
+  # - story: delicious_food_small_portion_sizes
+  #   steps:
+  #     - intent: delicious_food_small_portion_sizes
+  #     - action: utter_delicious_food_small_portion_sizes
+
+  # - story: great_sound_quality_uncomfortable_seats
+  #   steps:
+  #     - intent: great_sound_quality_uncomfortable_seats
+  #     - action: utter_great_sound_quality_uncomfortable_seats
+
+  # - story: friendly_customer_support_limited_online_chat
+  #   steps:
+  #     - intent: friendly_customer_support_limited_online_chat
+  #     - action: utter_friendly_customer_support_limited_online_chat
+
+  # - story: excellent_clothing_quality_longer_shipping_time
+  #   steps:
+  #     - intent: excellent_clothing_quality_longer_shipping_time
+  #     - action: utter_excellent_clothing_quality_longer_shipping_time
+
+  # - story: well-designed_website_improve_search_function
+  #   steps:
+  #     - intent: well-designed_website_improve_search_function
+  #     - action: utter_well-designed_website_improve_search_function
+
+  # - story: knowledgeable_tech_support_long_phone_wait_times
+  #   steps:
+  #     - intent: knowledgeable_tech_support_long_phone_wait_times
+  #     - action: utter_knowledgeable_tech_support_long_phone_wait_times
+
+  # - story: extensive_product_range_challenging_website_navigation
+  #   steps:
+  #     - intent: extensive_product_range_challenging_website_navigation
+  #     - action: utter_extensive_product_range_challenging_website_navigation
+
+  # - story: convenient_store_location_parking_availability
+  #   steps:
+  #     - intent: convenient_store_location_parking_availability
+  #     - action: utter_convenient_store_location_parking_availability
+
+  # - story: robust_software_features_encountering_bugs
+  #   steps:
+  #     - intent: robust_software_features_encountering_bugs
+  #     - action: utter_robust_software_features_encountering_bugs
+
+  # - story: beautiful_hotel_view_unreliable_wifi
+  #   steps:
+  #     - intent: beautiful_hotel_view_unreliable_wifi
+  #     - action: utter_beautiful_hotel_view_unreliable_wifi
+
+  # - story: competitive_pricing_delayed_delivery
+  #   steps:
+  #     - intent: competitive_pricing_delayed_delivery
+  #     - action: utter_competitive_pricing_delayed_delivery
+
+  # - story: well-organized_event_limited_food_options
+  #   steps:
+  #     - intent: well-organized_event_limited_food_options
+  #     - action: utter_well-organized_event_limited_food_options
+
+  # - story: trendy_clothing_items_confusing_checkout
+  #   steps:
+  #     - intent: trendy_clothing_items_confusing_checkout
+  #     - action: utter_trendy_clothing_items_confusing_checkout
+
+  # - story: engaging_social_media_hard_to_find_contact
+  #   steps:
+  #     - intent: engaging_social_media_hard_to_find_contact
+  #     - action: utter_engaging_social_media_hard_to_find_contact
+
+  # - story: affordable_product_flimsy_packaging
+  #   steps:
+  #     - intent: affordable_product_flimsy_packaging
+  #     - action: utter_affordable_product_flimsy_packaging
+
+  # - story: diverse_menu_crowded_during_visit
+  #   steps:
+  #     - intent: diverse_menu_crowded_during_visit
+  #     - action: utter_diverse_menu_crowded_during_visit
+
+  # - story: easy_to_navigate_ecommerce_site_mobile_app_improvements
+  #   steps:
+  #     - intent: easy_to_navigate_ecommerce_site_mobile_app_improvements
+  #     - action: utter_easy_to_navigate_ecommerce_site_mobile_app_improvements
+
+  # - story: great_coffee_crowded_during_visit
+  #   steps:
+  #     - intent: great_coffee_crowded_during_visit
+  #     - action: utter_great_coffee_crowded_during_visit
+
+  # - story: modern_user_friendly_website_limited_product_selection
+  #   steps:
+  #     - intent: modern_user_friendly_website_limited_product_selection
+  #     - action: utter_modern_user_friendly_website_limited_product_selection
+
+  # - story: prompt_customer_support_difficulty_navigating_website
+  #   steps:
+  #     - intent: prompt_customer_support_difficulty_navigating_website
+  #     - action: utter_prompt_customer_support_difficulty_navigating_website
+
+  # - story: exceeded_expectations_hard_to_understand_user_manual
+  #   steps:
+  #     - intent: exceeded_expectations_hard_to_understand_user_manual
+  #     - action: utter_exceeded_expectations_hard_to_understand_user_manual
+
+  # - story: professional_response_longer_resolution_time
+  #   steps:
+  #     - intent: professional_response_longer_resolution_time
+  #     - action: utter_professional_response_longer_resolution_time
+
+  # - story: delicious_food_small_portion_sizes_for_price
+  #   steps:
+  #     - intent: delicious_food_small_portion_sizes_for_price
+  #     - action: utter_delicious_food_small_portion_sizes_for_price
+
+  # - story: feature-rich_mobile_app_occasional_crashes
+  #   steps:
+  #     - intent: feature-rich_mobile_app_occasional_crashes
+  #     - action: utter_feature-rich_mobile_app_occasional_crashes
+
+  # - story: competitive_pricing_delayed_delivery_duplicate
+  #   steps:
+  #     - intent: competitive_pricing_delayed_delivery_duplicate
+  #     - action: utter_competitive_pricing_delayed_delivery_duplicate
+
+  # - story: entertaining_event_uncomfortable_seating
+  #   steps:
+  #     - intent: entertaining_event_uncomfortable_seating
+  #     - action: utter_entertaining_event_uncomfortable_seating
+
+  # - story: modern_website_design_product_search_needs_improvement
+  #   steps:
+  #     - intent: modern_website_design_product_search_needs_improvement
+  #     - action: utter_modern_website_design_product_search_needs_improvement
+
+  # - story: friendly_customer_support_long_phone_wait_time
+  #   steps:
+  #     - intent: friendly_customer_support_long_phone_wait_time
+  #     - action: utter_friendly_customer_support_long_phone_wait_time
+
+  # - story: fast_shipping_wrong_product
+  #   steps:
+  #     - intent: fast_shipping_wrong_product
+  #     - action: utter_fast_shipping_wrong_product
+
+  # - story: informative_online_courses_difficulty_navigating_learning_platform
+  #   steps:
+  #     - intent: informative_online_courses_difficulty_navigating_learning_platform
+  #     - action: utter_informative_online_courses_difficulty_navigating_learning_platform
+
+  # - story: competitive_pricing_expensive_shipping
+  #   steps:
+  #     - intent: competitive_pricing_expensive_shipping
+  #     - action: utter_competitive_pricing_expensive_shipping
+
+  # - story: great_coffee_crowded_during_visit
+  #   steps:
+  #     - intent: great_coffee_crowded_during_visit
+  #     - action: utter_great_coffee_crowded_during_visit
+
+  # - story: wide_product_variety_cumbersome_checkout_process
+  #   steps:
+  #     - intent: wide_product_variety_cumbersome_checkout_process
+  #     - action: utter_wide_product_variety_cumbersome_checkout_process
+
+  # - story: responsive_customer_service_payment_gateway_issues
+  #   steps:
+  #     - intent: responsive_customer_service_payment_gateway_issues
+  #     - action: utter_responsive_customer_service_payment_gateway_issues
+
+  # - story: feature-rich_mobile_app_occasional_crashes
+  #   steps:
+  #     - intent: feature-rich_mobile_app_occasional_crashes
+  #     - action: utter_feature-rich_mobile_app_occasional_crashes
+
+  # - story: modern_website_design_search_function_needs_improvement
+  #   steps:
+  #     - intent: modern_website_design_search_function_needs_improvement
+  #     - action: utter_modern_website_design_search_function_needs_improvement
+
+  # - story: friendly_store_staff_limited_store_hours
+  #   steps:
+  #     - intent: friendly_store_staff_limited_store_hours
+  #     - action: utter_friendly_store_staff_limited_store_hours
+
+  # - story: powerful_software_lacks_user_manual_for_beginners
+  #   steps:
+  #     - intent: powerful_software_lacks_user_manual_for_beginners
+  #     - action: utter_powerful_software_lacks_user_manual_for_beginners
+
+  # - story: prompt_response_comprehensive_resolution
+  #   steps:
+  #     - intent: prompt_response_comprehensive_resolution
+  #     - action: utter_prompt_response_comprehensive_resolution
+
+  # - story: cozy_restaurant_atmosphere_limited_vegan_menu_options
+  #   steps:
+  #     - intent: cozy_restaurant_atmosphere_limited_vegan_menu_options
+  #     - action: utter_cozy_restaurant_atmosphere_limited_vegan_menu_options
+
+  # - story: feature-packed_mobile_app_quick_battery_drain
+  #   steps:
+  #     - intent: feature-packed_mobile_app_quick_battery_drain
+  #     - action: utter_feature-packed_mobile_app_quick_battery_drain
+
+  # - story: competitive_pricing_time-consuming_checkout_process
+  #   steps:
+  #     - intent: competitive_pricing_time-consuming_checkout_process
+  #     - action: utter_competitive_pricing_time-consuming_checkout_process
+
+  # - story: helpful_live_chat_support_limited_hours
+  #   steps:
+  #     - intent: helpful_live_chat_support_limited_hours
+  #     - action: utter_helpful_live_chat_support_limited_hours
+
+  # - story: modern_attractive_website_design_slow_page_loading
+  #   steps:
+  #     - intent: modern_attractive_website_design_slow_page_loading
+  #     - action: utter_modern_attractive_website_design_slow_page_loading
+
+  # - story: knowledgeable_tech_support_long_phone_wait_times
+  #   steps:
+  #     - intent: knowledgeable_tech_support_long_phone_wait_times
+  #     - action: utter_knowledgeable_tech_support_long_phone_wait_times
+
+  # - story: on_time_shipping_eco_friendly_packaging
+  #   steps:
+  #     - intent: on_time_shipping_eco_friendly_packaging
+  #     - action: utter_on_time_shipping_eco_friendly_packaging
+
+  # - story: entertaining_event_parking_challenge
+  #   steps:
+  #     - intent: entertaining_event_parking_challenge
+  #     - action: utter_entertaining_event_parking_challenge
+
+  # - story: informative_online_courses_improvement_needed_user_interface
+  #   steps:
+  #     - intent: informative_online_courses_improvement_needed_user_interface
+  #     - action: utter_informative_online_courses_improvement_needed_user_interface
+
+  # - story: clothing_quality
+  #   steps:
+  #     - intent: clothing_quality
+  #     - action: utter_clothing_quality
+
+  # - story: friendly_customer_support
+  #   steps:
+  #     - intent: friendly_customer_support
+  #     - action: utter_friendly_customer_support
+
+  # - story: great_location_hotel
+  #   steps:
+  #     - intent: great_location_hotel
+  #     - action: utter_great_location_hotel
+
+  # - story: reasonable_pricing
+  #   steps:
+  #     - intent: reasonable_pricing
+  #     - action: utter_reasonable_pricing
+
+  # - story: fast_delivery
+  #   steps:
+  #     - intent: fast_delivery
+  #     - action: utter_fast_delivery
+
+  # - story: responsive_customer_service
+  #   steps:
+  #     - intent: responsive_customer_service
+  #     - action: utter_responsive_customer_service
+
+  # - story: diverse_menu_restaurant
+  #   steps:
+  #     - intent: diverse_menu_restaurant
+  #     - action: utter_diverse_menu_restaurant
+
+  # - story: competitive_pricing_product_availability
+  #   steps:
+  #     - intent: competitive_pricing_product_availability
+  #     - action: utter_competitive_pricing_product_availability
+
+  # - story: helpful_live_chat_support
+  #   steps:
+  #     - intent: helpful_live_chat_support
+  #     - action: utter_helpful_live_chat_support
+
+  # - story: modern_attractive_website_design
+  #   steps:
+  #     - intent: modern_attractive_website_design
+  #     - action: utter_modern_attractive_website_design
+
+  # - story: knowledgeable_tech_support
+  #   steps:
+  #     - intent: knowledgeable_tech_support
+  #     - action: utter_knowledgeable_tech_support
+
+  # - story: on_time_shipping_eco_friendly_packaging
+  #   steps:
+  #     - intent: on_time_shipping_eco_friendly_packaging
+  #     - action: utter_on_time_shipping_eco_friendly_packaging
+
+  # - story: entertaining_event
+  #   steps:
+  #     - intent: entertaining_event
+  #     - action: utter_entertaining_event
+
+  # - story: informative_online_courses
+  #   steps:
+  #     - intent: informative_online_courses
+  #     - action: utter_informative_online_courses
+
+  # - story: excellent_clothing_quality
+  #   steps:
+  #     - intent: excellent_clothing_quality
+  #     - action: utter_excellent_clothing_quality
+
+  # - story: friendly_customer_support_duplicate
+  #   steps:
+  #     - intent: friendly_customer_support_duplicate
+  #     - action: utter_friendly_customer_support_duplicate
+
+  # - story: great_location_hotel
+  #   steps:
+  #     - intent: great_location_hotel
+  #     - action: utter_great_location_hotel
+
+  # - story: fast_delivery
+  #   steps:
+  #     - intent: fast_delivery
+  #     - action: utter_fast_delivery
+
+  # - story: responsive_customer_service
+  #   steps:
+  #     - intent: responsive_customer_service
+  #     - action: utter_responsive_customer_service
+
+  # - story: diverse_menu_restaurant
+  #   steps:
+  #     - intent: diverse_menu_restaurant
+  #     - action: utter_diverse_menu_restaurant
+
+  # - story: easy_navigating_website
+  #   steps:
+  #     - intent: easy_navigating_website
+  #     - action: utter_easy_navigating_website
+
+  # - story: clean_comfortable_hotel
+  #   steps:
+  #     - intent: clean_comfortable_hotel
+  #     - action: utter_clean_comfortable_hotel
+
+  # - story: cozy_coffee_shop
+  #   steps:
+  #     - intent: cozy_coffee_shop
+  #     - action: utter_cozy_coffee_shop
+
+  # - story: convenient_mobile_app
+  #   steps:
+  #     - intent: convenient_mobile_app
+  #     - action: utter_convenient_mobile_app
+
+  # - story: modern_website_design
+  #   steps:
+  #     - intent: modern_website_design
+  #     - action: utter_modern_website_design
+
+  # - story: high_quality_products
+  #   steps:
+  #     - intent: high_quality_products
+  #     - action: utter_high_quality_products
+
+  # - story: quick_customer_responses
+  #   steps:
+  #     - intent: quick_customer_responses
+  #     - action: utter_quick_customer_responses
+
+  # - story: great_tasting_coffee
+  #   steps:
+  #     - intent: great_tasting_coffee
+  #     - action: utter_great_tasting_coffee
+
+  # - story: timely_delivery
+  #   steps:
+  #     - intent: timely_delivery
+  #     - action: utter_timely_delivery
+
+  # - story: well_organized_events
+  #   steps:
+  #     - intent: well_organized_events
+  #     - action: utter_well_organized_events
+
+  # - story: outstanding_product_quality
+  #   steps:
+  #     - intent: outstanding_product_quality
+  #     - action: utter_outstanding_product_quality
+
+  # - story: informative_website
+  #   steps:
+  #     - intent: informative_website
+  #     - action: utter_informative_website
+
+  # - story: user_friendly_software
+  #   steps:
+  #     - intent: user_friendly_software
+  #     - action: utter_user_friendly_software
+
+  # - story: helpful_support_team
+  #   steps:
+  #     - intent: helpful_support_team
+  #     - action: utter_helpful_support_team
+
+  # - story: stylish_product_design
+  #   steps:
+  #     - intent: stylish_product_design
+  #     - action: utter_stylish_product_design
+
+  # - story: cozy_restaurant_atmosphere
+  #   steps:
+  #     - intent: cozy_restaurant_atmosphere
+  #     - action: utter_cozy_restaurant_atmosphere
+
+  # - story: excellent_customer_support
+  #   steps:
+  #     - intent: excellent_customer_support
+  #     - action: utter_excellent_customer_support
+
+  # - story: prompt_delivery_and_exceeding_expectations
+  #   steps:
+  #     - intent: prompt_delivery_and_exceeding_expectations
+  #     - action: utter_prompt_delivery_and_exceeding_expectations
+
+  # - story: exceptional_customer_service_and_resolution
+  #   steps:
+  #     - intent: exceptional_customer_service_and_resolution
+  #     - action: utter_exceptional_customer_service_and_resolution
+
+  # - story: delicious_food_and_generous_portions
+  #   steps:
+  #     - intent: delicious_food_and_generous_portions
+  #     - action: utter_delicious_food_and_generous_portions
+
+  # - story: intuitive_shopping_experience
+  #   steps:
+  #     - intent: intuitive_shopping_experience
+  #     - action: utter_intuitive_shopping_experience
+
+  # - story: competitive_pricing_and_top-notch_quality
+  #   steps:
+  #     - intent: competitive_pricing_and_top-notch_quality
+  #     - action: utter_competitive_pricing_and_top-notch_quality
+
+  # - story: well-organized_events_and_helpful_staff
+  #   steps:
+  #     - intent: well-organized_events_and_helpful_staff
+  #     - action: utter_well-organized_events_and_helpful_staff
+
+  # - story: powerful_software_and_workflow
+  #   steps:
+  #     - intent: powerful_software_and_workflow
+  #     - action: utter_powerful_software_and_workflow
+
+  # - story: informative_online_courses_and_knowledgeable_instructors
+  #   steps:
+  #     - intent: informative_online_courses_and_knowledgeable_instructors
+  #     - action: utter_informative_online_courses_and_knowledgeable_instructors
+
+  # - story: fast_delivery_and_perfect_condition
+  #   steps:
+  #     - intent: fast_delivery_and_perfect_condition
+  #     - action: utter_fast_delivery_and_perfect_condition
+
+  # - story: great_hotel_view_and_comfortable_room
+  #   steps:
+  #     - intent: great_hotel_view_and_comfortable_room
+  #     - action: utter_great_hotel_view_and_comfortable_room
+
+  # - story: coffee_variety_and_friendly_staff
+  #   steps:
+  #     - intent: coffee_variety_and_friendly_staff
+  #     - action: utter_coffee_variety_and_friendly_staff
+
+  # - story: feature-rich_mobile_app_and_productivity
+  #   steps:
+  #     - intent: feature-rich_mobile_app_and_productivity
+  #     - action: utter_feature-rich_mobile_app_and_productivity
+
+  # - story: modern_website_and_smooth_checkout
+  #   steps:
+  #     - intent: modern_website_and_smooth_checkout
+  #     - action: utter_modern_website_and_smooth_checkout
+
+  # - story: excellent_clothing_quality_and_fashionable_styles
+  #   steps:
+  #     - intent: excellent_clothing_quality_and_fashionable_styles
+  #     - action: utter_excellent_clothing_quality_and_fashionable_styles
+
+  # - story: responsive_customer_support_and_effective_resolution
+  #   steps:
+  #     - intent: responsive_customer_support_and_effective_resolution
+  #     - action: utter_responsive_customer_support_and_effective_resolution
+
+  # - story: on-time_shipping_and_secure_packaging
+  #   steps:
+  #     - intent: on-time_shipping_and_secure_packaging
+  #     - action: utter_on-time_shipping_and_secure_packaging
+
+  # - story: cozy_restaurant_ambiance_and_diverse_menu
+  #   steps:
+  #     - intent: cozy_restaurant_ambiance_and_diverse_menu
+  #     - action: utter_cozy_restaurant_ambiance_and_diverse_menu
+
+  # - story: easy-to-navigate_website_and-detailed-product-info
+  #   steps:
+  #     - intent: easy-to-navigate_website_and-detailed-product-info
+  #     - action: utter_easy-to-navigate_website_and-detailed-product-info
+
+  # - story: modern_website_and-informative-product-info
+  #   steps:
+  #     - intent: modern_website_and-informative-product-info
+  #     - action: utter_modern_website_and-informative-product-info
+
+  # - story: convenient_hotel_location_and_impressive_amenities
+  #   steps:
+  #     - intent: convenient_hotel_location_and_impressive_amenities
+  #     - action: utter_convenient_hotel_location_and_impressive_amenities
+
+  # - story: efficient_software_and_top-notch_customer_support
+  #   steps:
+  #     - intent: efficient_software_and_top-notch_customer_support
+  #     - action: utter_efficient_software_and_top-notch_customer_support
+
+  # - story: engaging_online_courses_and_user-friendly_platform
+  #   steps:
+  #     - intent: engaging_online_courses_and_user-friendly_platform
+  #     - action: utter_engaging_online_courses_and_user-friendly_platform
+
+  # - story: unmatched_product_quality_and_sustainability_commitment
+  #   steps:
+  #     - intent: unmatched_product_quality_and_sustainability_commitment
+  #     - action: utter_unmatched_product_quality_and_sustainability_commitment
+
+  # - story: fast_delivery_and_eco-friendly_packaging
+  #   steps:
+  #     - intent: fast_delivery_and_eco-friendly_packaging
+  #     - action: utter_fast_delivery_and_eco-friendly_packaging
+
+  # - story: early_delivery_and_exceeding_expectations
+  #   steps:
+  #     - intent: early_delivery_and_exceeding_expectations
+  #     - action: utter_early_delivery_and_exceeding_expectations
+
+  # - story: exceptional_customer_support_resolution
+  #   steps:
+  #     - intent: exceptional_customer_support_resolution
+  #     - action: utter_exceptional_customer_support_resolution
+
+  # - story: delectable_restaurant_cuisine_and_generous_portions
+  #   steps:
+  #     - intent: delectable_restaurant_cuisine_and_generous_portions
+  #     - action: utter_delectable_restaurant_cuisine_and_generous_portions
+
+  # - story: intuitive_website_layout_and_seamless_online_shopping
+  #   steps:
+  #     - intent: intuitive_website_layout_and_seamless_online_shopping
+  #     - action: utter_intuitive_website_layout_and_seamless_online_shopping
+
+  # - story: competitive_pricing_and_top-notch_craftsmanship
+  #   steps:
+  #     - intent: competitive_pricing_and_top-notch_craftsmanship
+  #     - action: utter_competitive_pricing_and_top-notch_craftsmanship
+
+  # - story: flawlessly_organized_event_and_exceptionally_helpful_staff
+  #   steps:
+  #     - intent: flawlessly_organized_event_and_exceptionally_helpful_staff
+  #     - action: utter_flawlessly_organized_event_and_exceptionally_helpful_staff
+
+  # - story: great_hotel_view_and_clean_comfortable_room
+  #   steps:
+  #     - intent: great_hotel_view_and_clean_comfortable_room
+  #     - action: utter_great_hotel_view_and_clean_comfortable_room
+
+  # - story: captivating_coffee_variety_and_friendly_staff
+  #   steps:
+  #     - intent: captivating_coffee_variety_and_friendly_staff
+  #     - action: utter_captivating_coffee_variety_and_friendly_staff
+
+  # - story: remarkably_feature-rich_mobile_app_and_productivity
+  #   steps:
+  #     - intent: remarkably_feature-rich_mobile_app_and_productivity
+  #     - action: utter_remarkably_feature-rich_mobile_app_and_productivity
+
+  # - story: modern_website_design_and_straightforward_checkout
+  #   steps:
+  #     - intent: modern_website_design_and_straightforward_checkout
+  #     - action: utter_modern_website_design_and_straightforward_checkout
+
+  # - story: exceptional_clothing_quality_and_trendy-styles
+  #   steps:
+  #     - intent: exceptional_clothing_quality_and-trendy-styles
+  #     - action: utter_exceptional_clothing_quality_and_trendy-styles
+
+  # - story: impressively-responsive-customer-support_and-effective-resolution
+  #   steps:
+  #     - intent: impressively-responsive-customer-support_and-effective-resolution
+  #     - action: utter_impressively-responsive-customer-support_and-effective-resolution
+
+  # - story: punctual-shipping_and-eco-friendly-packaging
+  #   steps:
+  #     - intent: punctual-shipping_and-eco-friendly-packaging
+  #     - action: utter_punctual-shipping_and-eco-friendly-packaging
+
+  # - story: invitingly-cozy-restaurant-ambiance_and-diverse-menu-options
+  #   steps:
+  #     - intent: invitingly-cozy-restaurant-ambiance_and-diverse-menu-options
+  #     - action: utter_invitingly-cozy-restaurant-ambiance-and-diverse-menu-options
+
+  # - story: conveniently-located-hotel_and-luxurious-amenities
+  #   steps:
+  #     - intent: conveniently-located-hotel_and-luxurious-amenities
+  #     - action: utter_conveniently-located-hotel-and-luxurious-amenities
+
+  # - story: transformative-software-impact-and-excellence
+  #   steps:
+  #     - intent: transformative-software-impact-and-excellence
+  #     - action: utter_transformative-software-impact-and-excellence
+
+  # - story: exceptionally-engaging-online-courses-and-enriching-learning-platform
+  #   steps:
+  #     - intent: exceptionally-engaging-online-courses-and-enriching-learning-platform
+  #     - action: utter_exceptionally-engaging-online-courses-and-enriching-learning-platform
+
+  # - story: unrivaled-product-quality-and-inspirational-sustainability-commitment
+  #   steps:
+  #     - intent: unrivaled-product-quality-and-inspirational-sustainability-commitment
+  #     - action: utter_unrivaled-product-quality-and-inspirational-sustainability-commitment
+
+  # - story: Swift Delivery and Eco-Friendly Packaging
+  #   steps:
+  #     - intent: swift-delivery_and-eco-friendly-packaging
+  #     - action: utter_swift_delivery_and_eco-friendly_packaging
+
+  # - story: Entertaining Event and Impeccable Organization
+  #   steps:
+  #     - intent: entertaining-event_and-impeccable-organization
+  #     - action: utter_entertaining_event_and_impeccable_organization
+
+  # - story: Impressive User-Friendly Software and Business Alignment
+  #   steps:
+  #     - intent: impressive-user-friendly-software_and-business-alignment
+  #     - action: utter_impressive_user-friendly_software_and_business-alignment
+
+  # - story: Reasonable Pricing and Diverse Product Selection
+  #   steps:
+  #     - intent: reasonable-pricing_and-diverse-product-selection
+  #     - action: utter_reasonable_pricing_and_diverse_product_selection
+
+  # - story: Disappointing Product Quality and High Price
+  #   steps:
+  #     - intent: disappointing-product-quality_and-high-price
+  #     - action: utter_disappointing_product_quality_and_high_price
+
+  # - story: Unhelpful Customer Support and Slow Response
+  #   steps:
+  #     - intent: unhelpful-customer-support_and-slow-response
+  #     - action: utter_unhelpful_customer_support_and_slow_response
+
+  # - story: Frustratingly User-Unfriendly Software and Non-Existent Customer Service
+  #   steps:
+  #     - intent: frustratingly-user-unfriendly-software_and-non-existent-customer-service
+  #     - action: utter_frustratingly_user-unfriendly_software_and_non-existent-customer-service
+
+  # - story: Location Praise for Hotel and Room Cleanliness Issue
+  #   steps:
+  #     - intent: location-praise-for-hotel_and-room-cleanliness-issue
+  #     - action: utter_location_praise_for_hotel_and_room_cleanliness_issue
+
+  # - story: Delayed Delivery and Damaged Product
+  #   steps:
+  #     - intent: delayed-delivery_and-damaged-product
+  #     - action: utter_delayed_delivery_and_damaged_product
+
+  # - story: Disastrous Event and Terrible Food Quality
+  #   steps:
+  #     - intent: disastrous-event_and-terrible-food-quality
+  #     - action: utter_disastrous_event_and_terrible_food_quality
+
+  # - story: Confusing Website and Missing Information
+  #   steps:
+  #     - intent: confusing-website_and-missing-information
+  #     - action: utter_confusing_website_and_missing_information
+
+  # - story: Late Product Delivery and Missed Expectations
+  #   steps:
+  #     - intent: late-product-delivery_and-missed-expectations
+  #     - action: utter_late_product_delivery_and_missed_expectations
+
+  # - story: Unresponsive Support Team and Slow Issue Resolution
+  #   steps:
+  #     - intent: unresponsive-support-team_and-slow-issue-resolution
+  #     - action: utter_unresponsive_support_team_and_slow_issue_resolution
+
+  # - story: Stylish Product Design and Lack of Durability
+  #   steps:
+  #     - intent: stylish-product-design_and-lack-of-durability
+  #     - action: utter_stylish_product_design_and_lack_of_durability
+
+  # - story: Pleasant Restaurant Atmosphere and Atrocious Service
+  #   steps:
+  #     - intent: pleasant-restaurant-atmosphere_and-atrocious-service
+  #     - action: utter_pleasant_restaurant_atmosphere_and_atrocious_service
+
+  # - story: Cluttered Website and Slow Performance
+  #   steps:
+  #     - intent: cluttered-website_and-slow-performance
+  #     - action: utter_cluttered_website_and_slow_performance
+
+  # - story: Delayed Shipping and Flimsy Packaging
+  #   steps:
+  #     - intent: delayed-shipping-and-flimsy-packaging
+  #     - action: utter_delayed_shipping_and_flimsy_packaging
+
+  # - story: Exorbitant Coffee Prices and Quality Mismatch
+  #   steps:
+  #     - intent: exorbitant-coffee-prices-and-quality-mismatch
+  #     - action: utter_exorbitant-coffee-prices-and-quality-mismatch
+
+  # - story: Frustrating Software Experience and Complicated Installation
+  #   steps:
+  #     - intent: frustrating-software-experience-and-complicated-installation
+  #     - action: utter_frustrating_software_experience_and_complicated_installation
+
+  # - story: Outdated Website Design and Cumbersome Checkout
+  #   steps:
+  #     - intent: outdated-website-design-and-cumbersome-checkout
+  #     - action: utter_outdated_website_design_and_cumbersome_checkout
+
+  # - story: Waste of Money Product and Poor Quality
+  #   steps:
+  #     - intent: waste-of-money-product-and-poor-quality
+  #     - action: utter_waste_of_money_product_and_poor_quality
+
+  # - story: Incompetent Support Team and No Help
+  #   steps:
+  #     - intent: incompetent-support-team-and-no-help
+  #     - action: utter_incompetent_support_team_and_no_help
+
+  # - story: Bug-Riddled Software and Constant Frustration
+  #   steps:
+  #     - intent: bug-riddled-software-and-constant-frustration
+  #     - action: utter_bug_riddled_software_and_constant_frustration
+
+  # - story: Outdated Amenities for Hotel and Luxury Advertisement Discrepancy
+  #   steps:
+  #     - intent: outdated-amenities-for-hotel-and-luxury-advertisement-discrepancy
+  #     - action: utter_outdated_amenities_for_hotel_and_luxury_advertisement_discrepancy
+
+  # - story: Disastrous Delivery and Damaged Package
+  #   steps:
+  #     - intent: disastrous-delivery-and-damaged-package
+  #     - action: utter_disastrous_delivery_and_damaged_package
+
+  # - story: Disorganized Event and Dreadful Food Quality
+  #   steps:
+  #     - intent: disorganized-event-and-dreadful-food-quality
+  #     - action: utter_disorganized_event_and_dreadful_food_quality
+
+  # - story: Frustrating Website Navigation and Outdated Information
+  #   steps:
+  #     - intent: frustrating-website-navigation-and-outdated-information
+  #     - action: utter_frustrating_website_navigation_and_outdated_information
+
+  # - story: Late Product Arrival and Mismatched Description
+  #   steps:
+  #     - intent: late-product-arrival-and-mismatched-description
+  #     - action: utter_late_product_arrival_and_mismatched_description
+
+  # - story: Unprofessional Support Team and Waste of Time
+  #   steps:
+  #     - intent: unprofessional-support-team-and-waste-of-time
+  #     - action: utter_unprofessional_support_team_and_waste_of_time
+
+  # - story: Pathetic Product Durability and Falling Apart
+  #   steps:
+  #     - intent: pathetic-product-durability-and-falling-apart
+  #     - action: utter_pathetic_product_durability_and_falling_apart
+
+  # - story: Terrible Restaurant Service and Tasteless Food
+  #   steps:
+  #     - intent: terrible-restaurant-service-and-tasteless-food
+  #     - action: utter_terrible_restaurant_service_and_tasteless_food
+
+  # - story: Slow Website Performance and Terrible Online Shopping
+  #   steps:
+  #     - intent: slow-website-performance-and-terrible-online-shopping
+  #     - action: utter_slow_website_performance_and_terrible_online_shopping
+
+  # - story: Delayed Shipping and Flimsy Packaging with Damaged Goods
+  #   steps:
+  #     - intent: delayed-shipping-and-flimsy-packaging-with-damaged-goods
+  #     - action: utter_delayed_shipping_and_flimsy_packaging_with_damaged_goods
+
+  # - story: Overpriced Coffee and Inconsistent Quality
+  #   steps:
+  #     - intent: overpriced-coffee-and-inconsistent-quality
+  #     - action: utter_overpriced_coffee_and_inconsistent_quality
+
+  # - story: Frustrating Software Experience and Complicated Installation with Bugs
+  #   steps:
+  #     - intent: frustrating-software-experience-and-complicated-installation-with-bugs
+  #     - action: utter_frustrating_software_experience_and_complicated_installation_with_bugs
+
+  # - story: Outdated Website Design and Cumbersome Checkout with Payment Issues
+  #   steps:
+  #     - intent: outdated-website-design-and-cumbersome-checkout-with-payment-issues
+  #     - action: utter_outdated_website_design_and_cumbersome_checkout_with_payment_issues
+
+  # - story: Waste of Money Product and Poor Quality with No Refund
+  #   steps:
+  #     - intent: waste-of-money-product-and-poor-quality-with-no-refund
+  #     - action: utter_waste_of_money_product_and_poor_quality_with_no_refund
+
+  # - story: Incompetent Support Team and No Help with Rude Representatives
+  #   steps:
+  #     - intent: incompetent-support-team-and-no-help-with-rude-representatives
+  #     - action: utter_incompetent_support_team_and_no_help_with_rude_representatives
+
+  # - story: Bug-Riddled Software and Constant Frustration with Crashes
+  #   steps:
+  #     - intent: bug-riddled-software-and-constant-frustration-with-crashes
+  #     - action: utter_bug_riddled_software_and_constant_frustration_with_crashes
+
+  # - story: Outdated Amenities for Hotel and Luxury Advertisement Discrepancy with Room Issues
+  #   steps:
+  #     - intent: outdated-amenities-for-hotel-and-luxury-advertisement-discrepancy-with-room-issues
+  #     - action: utter_outdated_amenities_for_hotel_and_luxury_advertisement_discrepancy_with_room_issues
+
+  # - story: Disastrous Delivery and Damaged Package with Lost Shipment
+  #   steps:
+  #     - intent: disastrous-delivery-and-damaged-package-with-lost-shipment
+  #     - action: utter_disastrous_delivery_and_damaged_package_with_lost_shipment
+
+  # - story: Disorganized Event and Dreadful Food Quality with Service Mishaps
+  #   steps:
+  #     - intent: disorganized-event-and-dreadful-food-quality-with-service-mishaps
+  #     - action: utter_disorganized_event_and_dreadful_food_quality_with_service_mishaps
+
+  # - story: Frustrating Website Navigation and Outdated Information with Broken Links
+  #   steps:
+  #     - intent: frustrating-website-navigation-and-outdated-information-with-broken-links
+  #     - action: utter_frustrating_website_navigation_and_outdated_information_with_broken_links
+
+  # - story: Late Product Arrival and Mismatched Description with Poor Customer Service
+  #   steps:
+  #     - intent: late-product-arrival-and-mismatched-description-with-poor-customer-service
+  #     - action: utter_late_product_arrival_and_mismatched_description_with_poor_customer_service
+
+  # - story: Unprofessional Support Team and Waste of Time with No Resolution
+  #   steps:
+  #     - intent: unprofessional-support-team-and-waste-of-time-with-no-resolution
+  #     - action: utter_unprofessional_support_team_and_waste_of_time_with_no_resolution
+
+  # - story: Pathetic Product Durability and Falling Apart with No Warranty
+  #   steps:
+  #     - intent: pathetic-product-durability-and-falling-apart-with-no-warranty
+  #     - action: utter_pathetic_product_durability_and_falling_apart_with_no_warranty
+
+  # - story: Terrible Restaurant Service and Tasteless Food with Overcharging
+  #   steps:
+  #     - intent: terrible-restaurant-service-and-tasteless-food-with-overcharging
+  #     - action: utter_terrible_restaurant_service_and_tasteless_food_with_overcharging
+
+  # - story: Slow Website Performance and Terrible Online Shopping with Security Concerns
+  #   steps:
+  #     - intent: slow-website-performance-and-terrible-online-shopping-with-security-concerns
+  #     - action: utter_slow_website_performance_and_terrible_online_shopping_with_security_concerns
+
+  # - story: Delayed Shipping and Flimsy Packaging with Damaged Goods and No Compensation
+  #   steps:
+  #     - intent: delayed-shipping-and-flimsy-packaging-with-damaged-goods-and-no-compensation
+  #     - action: utter_delayed_shipping_and_flimsy_packaging_with_damaged_goods_and_no_compensation
+
+  # - story: Overpriced Coffee and Inconsistent Quality with Wrong Orders
+  #   steps:
+  #     - intent: overpriced-coffee-and-inconsistent-quality-with-wrong-orders
+  #     - action: utter_overpriced_coffee_and_inconsistent_quality_with_wrong_orders
+
+  # - story: Frustrating Software Experience and Complicated Installation with Bugs and Crashes
+  #   steps:
+  #     - intent: frustrating-software-experience-and-complicated-installation-with-bugs-and-crashes
+  #     - action: utter_frustrating_software_experience_and_complicated_installation_with_bugs_and_crashes
+
+  # - story: Outdated Website Design and Cumbersome Checkout with Payment Issues and Refund Problems
+  #   steps:
+  #     - intent: outdated-website-design-and-cumbersome-checkout-with-payment-issues-and-refund-problems
+  #     - action: utter_outdated_website_design_and_cumbersome_checkout_with_payment_issues_and_refund_problems
+
+  # - story: Waste of Money Product and Poor Quality with No Refund and Rude Customer Support
+  #   steps:
+  #     - intent: waste-of-money-product-and-poor-quality-with-no-refund-and-rude-customer-support
+  #     - action: utter_waste_of_money_product_and_poor_quality_with_no_refund_and_rude_customer_support
+
+  # - story: Bug-Riddled Software and Constant Frustration with Crashes and Lack of Updates
+  #   steps:
+  #     - intent: bug-riddled-software-and-constant-frustration-with-crashes-and-lack-of-updates
+  #     - action: utter_bug_riddled_software_and_constant_frustration_with_crashes_and_lack_of_updates
+
+  # - story: Outdated Amenities for Hotel and Luxury Advertisement Discrepancy with Room Issues and Noise Complaints
+  #   steps:
+  #     - intent: outdated-amenities-for-hotel-and-luxury-advertisement-discrepancy-with-room-issues-and-noise-complaints
+  #     - action: utter_outdated_amenities_for_hotel_and_luxury_advertisement_discrepancy_with_room_issues_and_noise_complaints
+
+  # - story: Disastrous Delivery and Damaged Package with Lost Shipment and Inadequate Compensation
+  #   steps:
+  #     - intent: disastrous-delivery-and-damaged-package-with-lost-shipment-and-inadequate-compensation
+  #     - action: utter_disastrous_delivery_and_damaged_package_with_lost_shipment_and_inadequate_compensation
+
+  # - story: Disorganized Event and Dreadful Food Quality with Service Mishaps and Guest Complaints
+  #   steps:
+  #     - intent: disorganized-event-and-dreadful-food-quality-with-service-mishaps-and-guest-complaints
+  #     - action: utter_disorganized_event_and_dreadful_food_quality_with_service_mishaps_and_guest_complaints
+
+  # - story: Frustrating Website Navigation and Outdated Information with Broken Links and Customer Data Breach
+  #   steps:
+  #     - intent: frustrating-website-navigation-and-outdated-information-with-broken-links-and-customer-data-breach
+  #     - action: utter_frustrating_website_navigation_and_outdated_information_with_broken_links_and_customer_data_breach
+
+  # - story: Late Product Arrival and Mismatched Description with Poor Customer Service and Lack of Resolution
+  #   steps:
+  #     - intent: late-product-arrival-and-mismatched-description-with-poor-customer-service-and-lack-of-resolution
+  #     - action: utter_late_product_arrival_and_mismatched_description_with_poor_customer_service_and_lack_of_resolution
+
+  # - story: Unprofessional Support Team and Waste of Time with No Resolution and Disrespectful Staff
+  #   steps:
+  #     - intent: unprofessional-support-team-and-waste-of-time-with-no-resolution-and-disrespectful-staff
+  #     - action: utter_unprofessional_support_team_and_waste_of_time_with_no_resolution_and_disrespectful_staff
+
+  # - story: Pathetic Product Durability and Falling Apart with No Warranty and Ineffective Repairs
+  #   steps:
+  #     - intent: pathetic-product-durability-and-falling-apart-with-no-warranty-and-ineffective-repairs
+  #     - action: utter_pathetic_product_durability_and_falling_apart_with_no_warranty_and_ineffective_repairs
+
+  # - story: Terrible Restaurant Service and Tasteless Food with Overcharging and Health Violations
+  #   steps:
+  #     - intent: terrible-restaurant-service-and-tasteless-food-with-overcharging-and-health-violations
+  #     - action: utter_terrible_restaurant_service_and_tasteless_food_with_overcharging_and_health_violations
+
+  # - story: Slow Website Performance and Terrible Online Shopping with Security Concerns and Payment Errors
+  #   steps:
+  #     - intent: slow-website-performance-and-terrible-online-shopping-with-security-concerns-and-payment-errors
+  #     - action: utter_slow_website_performance_and_terrible_online_shopping_with_security_concerns_and_payment_errors
+
+  # - story: Delayed Shipping and Flimsy Packaging with Damaged Goods and No Compensation with Lost Packages
+  #   steps:
+  #     - intent: delayed-shipping-and-flimsy-packaging-with-damaged-goods-and-no-compensation-with-lost-packages
+  #     - action: utter_delayed_shipping_and_flimsy_packaging_with_damaged_goods_and_no_compensation_with_lost_packages
+
+  # - story: Disastrous Delivery with Late Arrival and Damaged Packaging
+  #   steps:
+  #     - intent: disastrous-delivery-with-late-arrival-and-damaged-packaging
+  #     - action: utter_disastrous-delivery-with-late-arrival-and-damaged-packaging
+
+  # - story: Letdown Event with Disorganization and Dreadful Entertainment
+  #   steps:
+  #     - intent: letdown-event-with-disorganization-and-dreadful-entertainment
+  #     - action: utter_letdown-event-with-disorganization-and-dreadful-entertainment
+
+  # - story: Frustrating Website with Pop-Up Ads and Poor Navigation
+  #   steps:
+  #     - intent: frustrating-website-with-pop-up-ads-and-poor-navigation
+  #     - action: utter_frustrating-website-with-pop-up-ads-and-poor-navigation
+
+  # - story: Disappointing Product Performance
+  #   steps:
+  #     - intent: disappointing-product-performance
+  #     - action: utter_disappointing-product-performance
+
+  # - story: Unhelpful Customer Support
+  #   steps:
+  #     - intent: unhelpful-customer-support
+  #     - action: utter_unhelpful-customer-support
+
+  # - story: Terrible Product Design
+  #   steps:
+  #     - intent: terrible-product-design
+  #     - action: utter_terrible-product-design
+
+  # - story: Abysmal Restaurant Service and Inedible Food
+  #   steps:
+  #     - intent: abysmal-restaurant-service-and-inedible-food
+  #     - action: utter_abysmal-restaurant-service-and-inedible-food
+
+  # - story: Disastrous Website Performance and Inaccurate Information
+  #   steps:
+  #     - intent: disastrous-website-performance-and-inaccurate-information
+  #     - action: utter_disastrous-website-performance-and-inaccurate-information
+
+  # - story: Nightmare Shipping and Subpar Packaging with Damaged Goods
+  #   steps:
+  #     - intent: nightmare-shipping-and-subpar-packaging-with-damaged-goods
+  #     - action: utter_nightmare-shipping-and-subpar-packaging-with-damaged-goods
+
+  # - story: Rip-off Coffee Shop with Outrageous Prices and Undrinkable Coffee
+  #   steps:
+  #     - intent: rip-off-coffee-shop-with-outrageous-prices-and-undrinkable-coffee
+  #     - action: utter_rip-off-coffee-shop-with-outrageous-prices-and-undrinkable-coffee
+
+  # - story: Catastrophic Software with Errors and Nonexistent Support
+  #   steps:
+  #     - intent: catastrophic-software-with-errors-and-nonexistent-support
+  #     - action: utter_catastrophic-software-with-errors-and-nonexistent-support
+
+  # - story: Outdated Website Design and Excruciatingly Long Checkout
+  #   steps:
+  #     - intent: outdated-website-design-and-excruciatingly-long-checkout
+  #     - action: utter_outdated-website-design-and-excruciatingly-long-checkout
+
+  # - story: Dreadful Clothing Quality and Outdated Styles
+  #   steps:
+  #     - intent: dreadful-clothing-quality-and-outdated-styles
+  #     - action: utter_dreadful-clothing-quality-and-outdated-styles
+
+  # - story: Unresponsive Customer Support and Disinterested Service
+  #   steps:
+  #     - intent: unresponsive-customer-support-and-disinterested-service
+  #     - action: utter_unresponsive-customer-support-and-disinterested-service
+
+  # - story: Terrible Shipping with Delays and Flimsy Packaging Leading to Damaged Goods
+  #   steps:
+  #     - intent: terrible-shipping-with-delays-and-flimsy-packaging-leading-to-damaged-goods
+  #     - action: utter_terrible-shipping-with-delays-and-flimsy-packaging-leading-to-damaged-goods
+
+  # - story: Slow Website Performance and Terrible Online Shopping
+  #   steps:
+  #     - intent: slow-website-performance-and-terrible-online-shopping
+  #     - action: utter_slow-website-performance-and-terrible-online-shopping
+
+  # - story: Software Full of Bugs and Constant Frustration
+  #   steps:
+  #     - intent: software-full-of-bugs-and-constant-frustration
+  #     - action: utter_software-full-of-bugs-and-constant-fascination
+
+  # - story: Outdated Hotel Amenities and Far from Luxury
+  #   steps:
+  #     - intent: outdated-hotel-amenities-and-far-from-luxury
+  #     - action: utter_outdated-hotel-amenities-and-far-from-luxury
+
+  # - story: Disastrous Delivery and Damaged Package
+  #   steps:
+  #     - intent: disastrous-delivery-and-damaged-package
+  #     - action: utter_disastrous-delivery-and-damaged-package
+
+  # - story: Disorganized Event and Dreadful Food Quality
+  #   steps:
+  #     - intent: disorganized-event-and-dreadful-food-quality
+  #     - action: utter_disorganized-event-and-dreadful-food-quality
+
+  # - story: Frustrating Website Navigation and Outdated Information
+  #   steps:
+  #     - intent: frustrating-website-navigation-and-outdated-information
+  #     - action: utter_frustrating-website-navigation-and-outdated-information
+
+  # - story: Subpar Product that Doesn't Meet Expectations
+  #   steps:
+  #     - intent: subpar-product-that-doesn't-meet-expectations
+  #     - action: utter_subpar-product-that-doesn't-meet-expectations
+
+  # - story: Customer Support Needs Improvement with Some Helpfulness
+  #   steps:
+  #     - intent: customer-support-needs-improvement-with-some-helpfulness
+  #     - action: utter_customer-support-needs-improvement-with-some-helpfulness
+
+  # - story: Average Software with Some Issues and Potential
+  #   steps:
+  #     - intent: average-software-with-some-issues-and-potential
+  #     - action: utter_average-software-with-some-issues-and-potential
+
+  # - story: Mediocre Hotel with Room for Improvement and Decent Amenities
+  #   steps:
+  #     - intent: mediocre-hotel-with-room-for-improvement-and-decent-amenities
+  #     - action: utter_mediocre-hotel-with-room-for-improvement-and-decent-amenities
+
+  # - story: Slightly Delayed Delivery with Secure Packaging
+  #   steps:
+  #     - intent: slightly-delayed-delivery-with-secure-packaging
+  #     - action: utter_slightly-delayed-delivery-with-secure-packaging
+
+  # - story: Event Below Expectations but Not a Total Disaster
+  #   steps:
+  #     - intent: event-below-expectations-but-not-a-total-disaster
+  #     - action: utter_event-below-expectations-but-not-a-total-disaster
+
+  # - story: Website Needing Improvements and Not the Worst
+  #   steps:
+  #     - intent: website-needing-improvements-and-not-the-worst
+  #     - action: utter_website-needing-improvements-and-not-the-worst
+
+  # - story: Late Product Not Matching Description but Not the Worst
+  #   steps:
+  #     - intent: late-product-not-matching-description-but-not-the-worst
+  #     - action: utter_late-product-not-matching-description-but-not-the-worst
+
+  # - story: Unimpressive Support Team Needing More Training but Trying to Help
+  #   steps:
+  #     - intent: unimpressive-support-team-needing-more-training-but-trying-to-help
+  #     - action: utter_unimpressive-support-team-needing-more-training-but-trying-to-help
+
+  # - story: Mediocre Product Working but Needing Improvement
+  #   steps:
+  #     - intent: mediocre-product-working-but-needing-improvement
+  #     - action: utter_mediocre-product-working-but-needing-improvement
+
+  # - story: Lacking Restaurant Service but Edible Food
+  #   steps:
+  #     - intent: lacking-restaurant-service-but-edible-food
+  #     - action: utter_lacking-restaurant-service-but-edible-food
+
+  # - story: Mediocre Website Performance Slow and Needing Upgrades
+  #   steps:
+  #     - intent: mediocre-website-performance-slow-and-needing-upgrades
+  #     - action: utter_mediocre-website-performance-slow-and-needing-upgrades
+
+  # - story: Slightly Delayed Shipping with Satisfactory Packaging
+  #   steps:
+  #     - intent: slightly-delayed-shipping-with-satisfactory-packaging
+  #     - action: utter_slightly-delayed-shipping-with-satisfactory-packaging
+
+  # - story: Overpriced Coffee Shop but Drinkable Coffee
+  #   steps:
+  #     - intent: overpriced-coffee-shop-but-drinkable-coffee
+  #     - action: utter_overpriced-coffee-shop-but-drinkable-coffee
+
+  # - story: Software Needing Improvement Not the Worst but Not Without Flaws
+  #   steps:
+  #     - intent: software-needing-improvement-not-the-worst-but-not-without-flaws
+  #     - action: utter_software-needing-improvement-not-the-worst-but-not-without-flaws
+
+  # - story: Website Design Needing Improvement Outdated but Usable
+  #   steps:
+  #     - intent: website-design-needing-improvement-outdated-but-usable
+  #     - action: utter_website-design-needing-improvement-outdated-but-usable
+
+  # - story: Clothing Quality Average with Outdated Styles
+  #   steps:
+  #     - intent: clothing-quality-average-with-outdated-styles
+  #     - action: utter_clothing-quality-average-with-outdated-styles
+
+  # - story: Somewhat Helpful Customer Support Needing More Efficiency
+  #   steps:
+  #     - intent: somewhat-helpful-customer-support-needing-more-efficiency
+  #     - action: utter_somewhat-helpful-customer-support-needing-more-efficiency
+
+  # - story: Subpar Shipping with Slight Delay but Secure Packaging
+  #   steps:
+  #     - intent: subpar-shipping-with-slight-delay-but-secure-packaging
+  #     - action: utter_subpar-shipping-with-slight-delay-but-secure-packaging
+
+  # - story: Mediocre Restaurant Service with Average Food
+  #   steps:
+  #     - intent: mediocre-restaurant-service-with-average-food
+  #     - action: utter_mediocre-restaurant-service-with-average-food
+
+  # - story: Subpar Website Performance Slow and Needing Smoother Navigation
+  #   steps:
+  #     - intent: subpar-website-performance-slow-and-needing-smoother-navigation
+  #     - action: utter_subpar-website-performance-slow-and-needing-smoother-navigation
+
+  # - story: Software Needing Work Not the Worst but Not Without Issues
+  #   steps:
+  #     - intent: software-needing-work-not-the-worst-but-not-without-issues
+  #     - action: utter_software-needing-work-not-the-worst-but-not-without-issues
+
+  # - story: Hotel Location Not Ideal but Decent Amenities
+  #   steps:
+  #     - intent: hotel-location-not-ideal-but-decent-amenities
+  #     - action: utter_hotel-location-not-ideal-but-decent-amenities
+
+  # - story: Somewhat Delayed Delivery with Satisfactory Packaging
+  #   steps:
+  #     - intent: somewhat-delayed-delivery-with-satisfactory-packaging
+  #     - action: utter_somewhat-delayed-delivery-with-satisfactory-packaging
+
+  # - story: Satisfactory Event Not Exceptional but Enjoyable
+  #   steps:
+  #     - intent: satisfactory-event-not-exceptional-but-enjoyable
+  #     - action: utter_satisfactory-event-not-exceptional-but-enjoyable
+
+  # - story: Decent Website Navigable but Needs Improvement
+  #   steps:
+  #     - intent: decent-website-navigable-but-needs-improvement
+  #     - action: utter_decent-website-navigable-but-needs-improvement
+
+  # - story: Somewhat Late Product with Description Mismatch
+  #   steps:
+  #     - intent: somewhat-late-product-with-description-mismatch
+  #     - action: utter_somewhat-late-product-with-description-mismatch
+
+  # - story: Decent Product But Falls Short of Expectations, Somewhat Functional
+  #   steps:
+  #     - intent: decent-product-but-falls-short-of-expectations-somewhat-functional
+  #     - action: utter_decent-product-but-falls-short-of-expectations-somewhat-functional
+
+  # - story: Okay Customer Support Trying to Help, Needing Efficiency
+  #   steps:
+  #     - intent: okay-customer-support-trying-to-help-needing-efficiency
+  #     - action: utter_okay-customer-support-trying-to-help-needing-efficiency
+
+  # - story: Average Software with Useful Features, Occasional Hiccups
+  #   steps:
+  #     - intent: average-software-with-useful-features-occasional-hiccups
+  #     - action: utter_average-software-with-useful-features-occasional-hiccups
+
+  # - story: Okay Hotel, Not the Best Location, Reasonable Amenities
+  #   steps:
+  #     - intent: okay-hotel-not-the-best-location-reasonable-amenities
+  #     - action: utter_okay-hotel-not-the-best-location-reasonable-amenities
+
+  # - story: Somewhat Slow Delivery with Secure Packaging
+  #   steps:
+  #     - intent: somewhat-slow-delivery-with-secure-packaging
+  #     - action: utter_somewhat-slow-delivery-with-secure-packaging
+
+  # - story: Satisfactory Event, Not Exceptional, But Enjoyable
+  #   steps:
+  #     - intent: satisfactory-event-not-exceptional-but-enjoyable
+  #     - action: utter_satisfactory-event-not-exceptional-but-enjoyable
+
+  # - story: Decent Website, Navigable but Needs Improvement
+  #   steps:
+  #     - intent: decent-website-navigable-but-needs-improvement
+  #     - action: utter_decent-website-navigable-but-needs-improvement
+
+  # - story: Somewhat Late Product with Description Mismatch
+  #   steps:
+  #     - intent: somewhat-late-product-with-description-mismatch
+  #     - action: utter_somewhat-late-product-with-description-mismatch
+
+  # - story: Support Team Trying to Help, Needing More Training
+  #   steps:
+  #     - intent: support-team-trying-to-help-needing-more-training
+  #     - action: utter_support-team-trying-to-help-needing-more-training
+
+  # - story: Decent Product Needing Improvement, Somewhat Reliable
+  #   steps:
+  #     - intent: decent-product-needing-improvement-somewhat-reliable
+  #     - action: utter_decent-product-needing-improvement-somewhat-reliable
+
+  # - story: Satisfactory Restaurant Service, Not Exceptional, But Decent Food
+  #   steps:
+  #     - intent: satisfactory-restaurant-service-not-exceptional-but-decent-food
+  #     - action: utter_satisfactory-restaurant-service-not-exceptional-but-decent-food
+
+  # - story: Okay Website Performance, Not the Fastest, But Not Unbearably Slow
+  #   steps:
+  #     - intent: okay-website-performance-not-the-fastest-but-not-unbearably-slow
+  #     - action: utter_okay-website-performance-not-the-fastest-but-not-unbearably-slow
+
+  # - story: Somewhat Slow Shipping with Secure Packaging
+  #   steps:
+  #     - intent: somewhat-slow-shipping-with-secure-packaging
+  #     - action: utter_somewhat-slow-shipping-with-secure-packaging
+
+  # - story: Somewhat Overpriced Coffee Shop with Drinkable Coffee
+  #   steps:
+  #     - intent: somewhat-overpriced-coffee-shop-drinkable-coffee
+  #     - action: utter_somewhat-overpriced-coffee-shop-drinkable-coffee
+
+  # - story: Software with Potential, Not Perfect, But with Merit
+  #   steps:
+  #     - intent: software-with-potential-not-perfect-but-with-merit
+  #     - action: utter_software-with-potential-not-perfect-but-with-merit
+
+  # - story: Decent Website Design, Not Cutting-Edge, But Not Entirely Outdated
+  #   steps:
+  #     - intent: decent-website-design-not-cutting-edge-but-not-entirely-outdated
+  #     - action: utter_decent-website-design-not-cutting-edge-but-not-entirely-outdated
+
+  # - story: Satisfactory Clothing Quality, But Somewhat Outdated Styles
+  #   steps:
+  #     - intent: satisfactory-clothing-quality-but-somewhat-outdated-styles
+  #     - action: utter_satisfactory-clothing-quality-but-somewhat-outdated-styles
