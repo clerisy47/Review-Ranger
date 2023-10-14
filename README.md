@@ -26,6 +26,7 @@ This command will install the necessary dependencies listed in the `requirements
 2. ```bash
 rasa shell
 ```
+3. Enter the input in the shell and press enter
 
 ### By streamlit:
 2. Run the application by executing the following command in your terminal:
