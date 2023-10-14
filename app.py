@@ -3,7 +3,7 @@ from PIL import Image
 import rasa.shared.utils.io
 
 rasa_model_path = "models"
-rasa = rasa.shared.utils.io.read_model(rasa_model_path)
+rasa = rasa.shared.utils.io.load_model(rasa_model_path)
 
 def generate_response(text):
     response = rasa.parse_text(text)
