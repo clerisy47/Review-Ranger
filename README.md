@@ -1,6 +1,6 @@
-# Automatic Review Bot
+# Review Ranger
 
-This repository contains code for an Automatic Review Bot using Rasa and Streamlit. The bot generates reviews based on user-provided text and ratings.
+This repository contains code for an Automatic Review Bot aka the Review Ranger using Rasa and Streamlit. The bot generates reviews based on user-provided text and ratings.
 
 ## Setup
 
