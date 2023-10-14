@@ -2,7 +2,7 @@
 
 This repository contains code for an Automatic Review Response Bot aka the Review Ranger using Rasa and Streamlit. The bot generates reviews based on user-provided text and ratings.
 
-[Demo Video](https://drive.google.com/file/d/1aoqIf6XOrGNRJ3zO48LHU3s8DBJc7nJI/view?usp=drive_link) 
+## [Demo Video](https://drive.google.com/file/d/1aoqIf6XOrGNRJ3zO48LHU3s8DBJc7nJI/view?usp=drive_link) 
 
 
 ## Setup
