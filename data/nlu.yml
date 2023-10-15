@@ -94,3 +94,135 @@ nlu:
       - I have questions about the loyalty program.
       - How does your loyalty program work?
       - Tell me more about the rewards in the loyalty program.
+
+  - intent: order_cancellation
+    examples: |
+      - I need to cancel my order.
+      - Please cancel my recent order.
+      - How can I cancel my order?
+
+  - intent: positive_feedback
+    examples: |
+      - I'm very satisfied with your service.
+      - Everything went perfectly.
+      - Great job, I'm really happy with the experience.
+
+  - intent: account_creation
+    examples: |
+      - How do I create an account on your platform?
+      - I want to sign up for an account.
+      - Can you guide me through the account creation process?
+
+  - intent: complaint_resolution
+    examples: |
+      - My complaint hasn't been resolved yet.
+      - I need help with an unresolved issue.
+      - The problem I reported is still not fixed.
+
+  - intent: feature_request
+    examples: |
+      - I have a suggestion for a new feature.
+      - Your service could benefit from this feature.
+      - Please consider adding this functionality.
+
+  - intent: partnership_inquiry
+    examples: |
+      - I'm interested in a potential partnership.
+      - Can we discuss a business partnership?
+      - How can I reach your partnership team?
+
+  - intent: returns_and_refunds
+    examples: |
+      - I need to initiate a return and request a refund.
+      - The product I received is not what I expected; I want a refund.
+      - Can you help me with the return and refund process?
+
+  - intent: product_recommendation
+    examples: |
+      - I'm looking for a product recommendation.
+      - Can you suggest a product that suits my needs?
+      - I need guidance on choosing the right product.
+
+  - intent: event_booking
+    examples: |
+      - How can I book tickets for your upcoming event?
+      - I want to attend your event; how do I make a booking?
+      - Tell me more about your event and how to secure tickets.
+
+  - intent: payment_issues
+    examples: |
+      - I encountered payment issues during checkout.
+      - There was an error with my payment; what should I do?
+      - Payment didn't go through; help me resolve it.
+
+  - intent: subscription_cancellation
+    examples: |
+      - I want to cancel my subscription.
+      - How can I stop my recurring subscription payments?
+      - Please guide me through the subscription cancellation process.
+
+  - intent: new_store_location
+    examples: |
+      - Do you have a new store location opening soon?
+      - I'd like to know about any new store openings in my area.
+      - Tell me about your latest store location.
+
+  - intent: order_tracking
+    examples: |
+      - Can I track my order's status?
+      - I need to check the order tracking information.
+      - Where is my package?
+
+  - intent: warranty_info
+    examples: |
+      - How long is the warranty for this product?
+      - Tell me about the warranty terms.
+      - Is this product covered by a warranty?
+
+  - intent: technical_support
+    examples: |
+      - I'm experiencing technical issues with the app.
+      - Help me with technical support.
+      - Technical assistance is required.
+
+  - intent: product_availability
+    examples: |
+      - Is this product in stock?
+      - Do you have this item available?
+      - I'm interested in a product; is it currently in stock?
+
+  - intent: job_application
+    examples: |
+      - I want to apply for a job at your company.
+      - How can I submit a job application?
+      - Tell me about your hiring process.
+
+  - intent: competitor_comparison
+    examples: |
+      - How does your product compare to competitors?
+      - Compare your services to your competitors.
+      - What makes you stand out in the market?
+
+  - intent: order_modification
+    examples: |
+      - I need to modify my recent order.
+      - Can I change my order details?
+      - How can I edit my order?
+
+  - intent: event_cancellation
+    examples: |
+      - Is the upcoming event canceled?
+      - Will the event still take place?
+      - Tell me about any event cancellations.
+
+  - intent: donation_inquiry
+    examples: |
+      - How can I make a donation to your cause?
+      - I'd like to support your organization; how can I donate?
+      - Tell me more about donation options.
+
+  - intent: user_survey
+    examples: |
+      - Can I participate in a user survey?
+      - I'm interested in providing feedback through a survey.
+      - How can I take part in your user survey?
