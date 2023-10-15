@@ -627,8 +627,8 @@ responses:
   utter_slow_delivery:
     - text: "I'm sorry to hear about the slow service you experienced. We value your feedback and will work on improving our service speed."
 
-  utter_small_room:
-    - text: "We apologize for the small room size. We appreciate your feedback and will consider your comments for future improvements."
+  # utter_small_room:
+  #   - text: "We apologize for the small room size. We appreciate your feedback and will consider your comments for future improvements."
 
   # utter_expensive_shipping:
   #   - text: "Thank you for your feedback regarding shipping costs. We are constantly reviewing our pricing to provide the best value for our customers."

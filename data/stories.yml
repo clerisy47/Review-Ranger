@@ -1451,60 +1451,10 @@ stories:
   #     - intent: customer-support-needs-improvement-with-some-helpfulness
   #     - action: utter_customer-support-needs-improvement-with-some-helpfulness
 
-  # - story: Average Software with Some Issues and Potential
-  #   steps:
-  #     - intent: average-software-with-some-issues-and-potential
-  #     - action: utter_average-software-with-some-issues-and-potential
-
-  # - story: Mediocre Hotel with Room for Improvement and Decent Amenities
-  #   steps:
-  #     - intent: mediocre-hotel-with-room-for-improvement-and-decent-amenities
-  #     - action: utter_mediocre-hotel-with-room-for-improvement-and-decent-amenities
-
-  # - story: Slightly Delayed Delivery with Secure Packaging
-  #   steps:
-  #     - intent: slightly-delayed-delivery-with-secure-packaging
-  #     - action: utter_slightly-delayed-delivery-with-secure-packaging
-
-  # - story: Event Below Expectations but Not a Total Disaster
-  #   steps:
-  #     - intent: event-below-expectations-but-not-a-total-disaster
-  #     - action: utter_event-below-expectations-but-not-a-total-disaster
-
-  # - story: Website Needing Improvements and Not the Worst
-  #   steps:
-  #     - intent: website-needing-improvements-and-not-the-worst
-  #     - action: utter_website-needing-improvements-and-not-the-worst
-
-  # - story: Late Product Not Matching Description but Not the Worst
-  #   steps:
-  #     - intent: late-product-not-matching-description-but-not-the-worst
-  #     - action: utter_late-product-not-matching-description-but-not-the-worst
-
-  # - story: Unimpressive Support Team Needing More Training but Trying to Help
-  #   steps:
-  #     - intent: unimpressive-support-team-needing-more-training-but-trying-to-help
-  #     - action: utter_unimpressive-support-team-needing-more-training-but-trying-to-help
-
   # - story: Mediocre Product Working but Needing Improvement
   #   steps:
   #     - intent: mediocre-product-working-but-needing-improvement
   #     - action: utter_mediocre-product-working-but-needing-improvement
-
-  # - story: Lacking Restaurant Service but Edible Food
-  #   steps:
-  #     - intent: lacking-restaurant-service-but-edible-food
-  #     - action: utter_lacking-restaurant-service-but-edible-food
-
-  # - story: Mediocre Website Performance Slow and Needing Upgrades
-  #   steps:
-  #     - intent: mediocre-website-performance-slow-and-needing-upgrades
-  #     - action: utter_mediocre-website-performance-slow-and-needing-upgrades
-
-  # - story: Slightly Delayed Shipping with Satisfactory Packaging
-  #   steps:
-  #     - intent: slightly-delayed-shipping-with-satisfactory-packaging
-  #     - action: utter_slightly-delayed-shipping-with-satisfactory-packaging
 
   # - story: Overpriced Coffee Shop but Drinkable Coffee
   #   steps:
