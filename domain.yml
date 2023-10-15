@@ -17,6 +17,28 @@ intents:
   - outstanding_performance
   - website_feedback
   - loyalty_program
+  - order_cancellation
+  - positive_feedback
+  - account_creation
+  - complaint_resolution
+  - feature_request
+  - partnership_inquiry
+  - returns_and_refunds
+  - product_recommendation
+  - event_booking
+  - payment_issues
+  - subscription_cancellation
+  - new_store_location
+  - order_tracking
+  - warranty_info
+  - technical_support
+  - product_availability
+  - job_application
+  - competitor_comparison
+  - order_modification
+  - event_cancellation
+  - donation_inquiry
+  - user_survey
 
 actions:
   - utter_slow_delivery
@@ -36,6 +58,28 @@ actions:
   - utter_outstanding_performance
   - utter_website_feedback
   - utter_loyalty_program
+  - utter_order_cancellation
+  - utter_positive_feedback
+  - utter_account_creation
+  - utter_complaint_resolution
+  - utter_feature_request
+  - utter_partnership_inquiry
+  - utter_returns_and_refunds
+  - utter_product_recommendation
+  - utter_event_booking
+  - utter_payment_issues
+  - utter_subscription_cancellation
+  - utter_new_store_location
+  - utter_order_tracking
+  - utter_warranty_info
+  - utter_technical_support
+  - utter_product_availability
+  - utter_job_application
+  - utter_competitor_comparison
+  - utter_order_modification
+  - utter_event_cancellation
+  - utter_donation_inquiry
+  - utter_user_survey
 
 responses:
   utter_slow_delivery:
@@ -88,3 +132,69 @@ responses:
 
   utter_loyalty_program:
     - text: "Our loyalty program offers great rewards. Let me explain how it works and the benefits you can enjoy."
+
+  utter_order_cancellation:
+    - text: "I can assist you with order cancellation. Please provide your order details, and I'll guide you through the process."
+
+  utter_positive_feedback:
+    - text: "Thank you for your positive feedback! We're delighted to hear about your satisfaction."
+
+  utter_account_creation:
+    - text: "To create an account, visit our website and click on the 'Sign Up' option. It's a quick and easy process."
+
+  utter_complaint_resolution:
+    - text: "I'm sorry to hear that your complaint hasn't been resolved. We'll prioritize resolving it as soon as possible."
+
+  utter_feature_request:
+    - text: "We value your input. Please share your feature request, and we'll consider it for future improvements."
+
+  utter_partnership_inquiry:
+    - text: "Thank you for your interest in a partnership. Please provide more details, and we'll get in touch with you."
+
+  utter_returns_and_refunds:
+    - text: "I can help you with returns and refunds. Please provide your order details, and I'll guide you through the process."
+
+  utter_product_recommendation:
+    - text: "Sure, I can assist with product recommendations. Could you tell me more about your preferences or requirements?"
+
+  utter_event_booking:
+    - text: "To book tickets for our upcoming event, visit our website and follow the booking instructions. It's a straightforward process."
+
+  utter_payment_issues:
+    - text: "I'm sorry to hear about the payment issues. Let's work together to resolve the problem and complete your purchase."
+
+  utter_subscription_cancellation:
+    - text: "To cancel your subscription, log in to your account, go to the subscription settings, and follow the cancellation process."
+
+  utter_new_store_location:
+    - text: "We're excited to announce our new store location. It's opening soon, and we'll share all the details with you shortly."
+
+  utter_order_tracking:
+    - text: "You can track your order's status by logging into your account on our website."
+
+  utter_warranty_info:
+    - text: "Our products typically come with a one-year warranty. Please check the product details for specific warranty information."
+
+  utter_technical_support:
+    - text: "If you're facing technical issues, our support team is here to assist. Please describe the problem you're experiencing."
+
+  utter_product_availability:
+    - text: "To check product availability, visit our website and search for the item. It will show the current stock status."
+
+  utter_job_application:
+    - text: "To apply for a job at our company, please visit our careers page on our website for current job openings."
+
+  utter_competitor_comparison:
+    - text: "Our product/service excels in various aspects. We can provide a detailed comparison if you share specific criteria."
+
+  utter_order_modification:
+    - text: "Order modifications can typically be done by contacting our customer support. Please provide your order details."
+
+  utter_event_cancellation:
+    - text: "There are no event cancellations at the moment. Our events are proceeding as scheduled."
+
+  utter_donation_inquiry:
+    - text: "We appreciate your interest in making a donation. You can find donation information on our website."
+
+  utter_user_survey:
+    - text: "We occasionally conduct user surveys to gather valuable feedback. Keep an eye on our website for survey opportunities."
