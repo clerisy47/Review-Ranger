@@ -1,0 +1,13 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohtaIgNa84syw1vjgjs6AgMy+9tjYWAHXjIQY=": "utter_expensive_shipping",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohtaIgNa84syw1vjgjs6AgMy+9loCBpSUlqUXxWPQRZXYsAMatRRo=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOCe/PD4lNSezLLWosrY2FgDVQx72": "utter_slow_delivery",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOCe/PD4lNSezLLWospaAWaUlJalF8ahaCJkYCwDYSz7q": "action_listen",
+    "eJwtytEJwCAMRdFVMkAncJVSRML7CGgsGqUg7t5A+3cvnHPtg9bdMGNik6qB1hdRU0Ggf7J0g7odHc2NqK8FwsPI2TPy6FYLWnQwhbH39QKLHyRT": "utter_excellent_customer_service",
+    "eJyVjUEKgDAMBL+SB/iCfkUkSMgh0KbSpkUo/bsBPSvedmB2dx1zgXEU7riTSdYA4w6oe+IAD0Spxupuq1zcEXW0AHwSx+gRqVXLiQu60IV4fgw3M5df+r++tgvOjU8B": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODcxJye+KD8/t7Y2FgB5kh2j": "utter_small_room",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODcxJye+KD8/t5aAQaUlJalF8Ujq8ZoVCwCfHTrx": "action_listen"
+  }
+}
