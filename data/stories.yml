@@ -54,3 +54,113 @@ stories:
     steps:
       - intent: poor_product_quality
       - action: utter_poor_product_quality
+
+  - story: User requests order cancellation
+    steps:
+      - intent: order_cancellation
+      - action: utter_order_cancellation
+
+  - story: User gives positive feedback
+    steps:
+      - intent: positive_feedback
+      - action: utter_positive_feedback
+
+  - story: User asks about account creation
+    steps:
+      - intent: account_creation
+      - action: utter_account_creation
+
+  - story: User expresses dissatisfaction with unresolved complaint
+    steps:
+      - intent: complaint_resolution
+      - action: utter_complaint_resolution
+
+  - story: User submits a feature request
+    steps:
+      - intent: feature_request
+      - action: utter_feature_request
+
+  - story: User inquires about a potential partnership
+    steps:
+      - intent: partnership_inquiry
+      - action: utter_partnership_inquiry
+
+  - story: User seeks assistance with returns and refunds
+    steps:
+      - intent: returns_and_refunds
+      - action: utter_returns_and_refunds
+
+  - story: User requests a product recommendation
+    steps:
+      - intent: product_recommendation
+      - action: utter_product_recommendation
+
+  - story: User inquires about event booking
+    steps:
+      - intent: event_booking
+      - action: utter_event_booking
+
+  - story: User faces payment issues
+    steps:
+      - intent: payment_issues
+      - action: utter_payment_issues
+
+  - story: User wants to cancel a subscription
+    steps:
+      - intent: subscription_cancellation
+      - action: utter_subscription_cancellation
+
+  - story: User asks about a new store location
+    steps:
+      - intent: new_store_location
+      - action: utter_new_store_location
+
+  - story: User wants to track an order
+    steps:
+      - intent: order_tracking
+      - action: utter_order_tracking
+
+  - story: User inquires about warranty information
+    steps:
+      - intent: warranty_info
+      - action: utter_warranty_info
+
+  - story: User seeks technical support
+    steps:
+      - intent: technical_support
+      - action: utter_technical_support
+
+  - story: User checks product availability
+    steps:
+      - intent: product_availability
+      - action: utter_product_availability
+
+  - story: User expresses interest in a job application
+    steps:
+      - intent: job_application
+      - action: utter_job_application
+
+  - story: User wants to compare products with competitors
+    steps:
+      - intent: competitor_comparison
+      - action: utter_competitor_comparison
+
+  - story: User wishes to modify an order
+    steps:
+      - intent: order_modification
+      - action: utter_order_modification
+
+  - story: User asks about event cancellation
+    steps:
+      - intent: event_cancellation
+      - action: utter_event_cancellation
+
+  - story: User inquires about making a donation
+    steps:
+      - intent: donation_inquiry
+      - action: utter_donation_inquiry
+
+  - story: User expresses interest in participating in a user survey
+    steps:
+      - intent: user_survey
+      - action: utter_user_survey
