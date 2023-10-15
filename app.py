@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
-# from rasa.core.agent import Agent
+from rasa.core.agent import Agent
 
-# agent = Agent.load(model_path='models')
+agent = Agent.load(model_path='models')
 
 # # For Rasa 2 (I tried it with 2.8.8)
 # # def generate_response(text):
@@ -10,14 +10,12 @@ from PIL import Image
 # #                 message_data='Hello there')
 # #     return response
 
+
 # # For Rasa 3
-
-
 def generate_response(text):
-    # response = agent.parse_message(
-    #     message_data='Hello there')
-    st.write("We apologize for the small room size. We appreciate your feedback and will consider your comments for future improvements."
-             )
+    response = agent.parse_message(
+        message_data='Hello there')
+    return response
 
 
 st.title("Automatic Review Bot")
@@ -35,7 +33,7 @@ if st.button("Generate Review"):
         st.warning("Please enter some text.")
 
 
-# st.info("Enter some text to generate a review.")
+st.info("Enter some text to generate a review.")
 
 # import asyncio
 # from rasa.core.agent import Agent
